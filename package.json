@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "express": "^4.18.1",
+    "postcss-cli": "^10.0.0"
   }
 }
